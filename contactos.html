@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="estilos.css">
+    <style>
+        h1{
+            color: black;
+        }
+        h1:hover{
+            color: aqua;
+        }
+        #menu2 li  :hover{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <header>
+            <h1 class="titulo2">Fifty Coffess</h1>
+            <nav>
+                <ul id="menu2">
+                    <li>
+                        <img class="iconos" src="img/corazon.png" alt="corazon">
+                        <a href="index.html">INICIO</a>
+                    </li>
+                    <li>
+                        <img class="iconos" src="img/nosotros.png" alt="camara">
+                        <a href="nosotros.html">NOSOTROS</a>
+                    </li>
+                    <li>
+                        <img class="iconos" src="img/lapiz.png" alt="lapiz">
+                        <a href="blog.html">BLOG</a>
+                    </li>
+                    <li>
+                        <img class="iconos" src="img/foto logo.png" alt="foto">
+                        <a href="galeria.html">GALERIA</a>
+                    </li>
+                    <li>
+                        <img class="iconos" src="img/video logo.png" alt="camara">
+                        <a href="videos.html">VIDEOS</a>
+                    </li>
+                    <li>
+                        <img class="iconos" src="img/agenda.png" alt="camara">
+                        <a href="contactos.html">CONTACTO</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <section class="contenedorContactos">
+            <div>
+                <table border>
+                    <h2 class="tituloContacto">Informacion de Contacto</h2>
+                    <tbody>
+                        <tr>
+                            <td><strong>Direccion: </strong></td>
+                            <td>Jr Carabaya 552 - Lima Perú <br>
+                                Jr. Camana 758 - Lima Perú</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Telefonos:</strong></td>
+                            <td>997 577 470 | 980 978 484 | (01)5335242</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Email:</strong></td>
+                            <td>info@fiftycoffes.com</td>
+                        </tr>
+                </table>
+                <table border>
+                        <h2 class="tituloContacto">Hoario de Atención Presencial</h2>
+                        <tbody>
+                            <tr>
+                                <td><strong>Area de Ventas</strong><br>
+                                De Lunes a Viernes de 8am a 6pm</td>
+                            </tr>
+                        </tbody>
+                    </tbody>
+                </table>
+                <div>
+                    <img class="contactoimg" src="img/chico tomando cafe" alt="cafechico">
+                </div>
+            </div>
+            <div>
+                <h2 class="tituloContacto">Dejanos tu comentario</h2>
+                <br>
+                <label for="Nombre">Nombre y Apellido*</label><br>
+                <input type="text" name="Nombre" required>
+                <br>
+                <br>
+                <label for="celular">Celular*</label><br>
+                <input type="number" name="Celular" required>
+                <br>
+                <br>
+                <label for="email">Correo electronico*</label><br>
+                <input type="text" name="RUC">
+                <br>
+                <br>
+                <label for="RUC">RUC (opcional)</label><br>
+                <input type="text" name="RUC">
+                <br>
+                <br>
+                <label for="Mensaje">Mensaje</label><br>
+                <textarea name="Mensaje" id="mensaje" placeholder="Dejanos un mensaje y con gusto te atenderemos"
+                    required></textarea>
+                <br>
+                <button class="enviar" type="submit">ENVIAR</button>
+            </div>
+            <div>
+                <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3901.6473009383226!2d-77.03449132530812!3d-12.067770742291481!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c89496119811%3A0x1e011234ae192592!2sPeruBus!5e0!3m2!1ses-419!2spe!4v1718143371435!5m2!1ses-419!2spe"
+                width="80%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+        
+        <footer>
+            <ul>
+                <li><a href="https://www.facebook.com" target="_blank"><img class="redes2" src="img/facebook negro.png"
+                            alt="logo facebook"></a></li>
+                <li><a href="https://www.tiktok.com" target="_blank"><img class="redes2" src="img/tik-tok negro.png"
+                            alt="logo tik-tok"></a></li>
+                <li><a href="https://whatsapp.com" target="_blank"><img class="redes2" src="img/whatsapp negro.png"
+                            alt="logo whatsapp"></a></li>
+            </ul>
+        </footer>
+    </main>
+</body>
+</html>
